@@ -8,8 +8,7 @@ body {
     align-items: center;
 }
 
-/* Navigation Bar */
-.navbar {
+.navigationbar {
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -19,7 +18,7 @@ body {
     margin-bottom: 150px;
 }
 
-.nav-button {
+.navigation-button {
     background-color: #e74c3c;
     color: white;
     border: none;
@@ -29,7 +28,7 @@ body {
     cursor: pointer;
 }
 
-.nav-button:hover {
+.navigation-button:hover {
     background-color: #c0392b;
 }
 
@@ -41,27 +40,26 @@ body {
     font-weight: bold;
     border-radius: 5px;
 }
-
 .container {
-    display: flex;
-    align-items: center; 
-    height: 100vh;
-    margin-bottom: 20px;
-    margin-top: -40px;
-}
+display: flex;
+align-items: center; 
+height: 100vh;
+margin-bottom: 20px;
+margin-top: -40px;
+    }
 
 .image {
-    margin-left: 20px; 
-    margin-right: 20px;
-    flex-shrink: 0; 
-}
+ margin-left: 20px; 
+margin-right: 20px;
+flex-shrink: 0; 
+ }
 
 .image img {
     width: 100%; 
     border-radius: 150px; /
 }
 
-.text {
+.hometext {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -69,11 +67,10 @@ body {
     margin-right: 20px; 
 }
 
-.text h1 {
+.hometext h1 {
     font-weight: bold;
 }
-
-.text p {
+.hometext p {
     font-size: smaller;
     margin-top: 0;
     line-height: 2.0
@@ -142,8 +139,9 @@ body {
 
 .contact-container label {
     display: block;
-    margin-bottom: 10px;
     font-weight: bold;
+    margin-bottom: 10px;
+    
 }
 
 .contact-container input[type="text"],
@@ -161,11 +159,13 @@ body {
     background-color: #e74c3c;
     color: white;
     padding: 100px 150px;
+    width: 100%;
     border: none;
     border-radius: 500px;
     cursor: pointer;
-    width: 100%;
+    
 }
 
 .contact-container input[type="submit"]:hover {
     background-color: #c0392b;
+}
