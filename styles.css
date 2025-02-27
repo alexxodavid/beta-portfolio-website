@@ -101,3 +101,71 @@ body {
     height: 100vh; 
 }
 
+.projects-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    background-color: transparent; 
+}
+
+.box {
+    background-color: #e74c3c; 
+    color: f8f8f8; 
+    padding: 40px 60px; 
+    border-radius: 20px; 
+    font-size: 24px; 
+    text-align: center; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin: 20px; 
+    width: 300px; 
+    height: 200px; 
+}
+
+.box p {
+    margin: 0; 
+}
+
+.contact-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 150px;
+    background-color: #1e5799;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-container label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.contact-container input[type="text"],
+.contact-container input[type="email"],
+.contact-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contact-container input[type="submit"] {
+    background-color: #e74c3c;
+    color: white;
+    padding: 100px 150px;
+    border: none;
+    border-radius: 500px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.contact-container input[type="submit"]:hover {
+    background-color: #c0392b;
